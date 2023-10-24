@@ -1,18 +1,19 @@
 
-let time = 0;
+let time = [];
+time[0] = 0;
 let wave = [];
 let path = [];
 
 let slider;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(1000, 600);
   slider = createSlider(1, 50, 5);
 }
 
 function draw() {
   background(0);
-  translate(150, 200);
+  translate(width/2, height/2);
 
   let x = 0;
   let y = 0;
@@ -23,8 +24,8 @@ function draw() {
 
     let n = i * 2 + 1;
     let radius = 75 * (4 / (n * PI));
-    x += radius * cos(n * time);
-    y += radius * sin(n * time);
+    x += radius * cos(n * time[0]);
+    y += radius * sin(n * time[0]);
 
     stroke(255, 100);
     noFill();
@@ -47,7 +48,7 @@ function draw() {
   }
   endShape();
 
-  time += 0.005;
+  time[0] += 0.005;
 
 
   if (wave.length > 250) {
