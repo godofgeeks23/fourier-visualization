@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   background(0);
-  translate(width/2 - 300, height/2);
+  translate(width / 2 - 300, height / 2);
 
   let x = 0;
   let y = 0;
@@ -28,6 +28,7 @@ function draw() {
 
     stroke(255, 100);
     noFill();
+    strokeWeight(1);
     ellipse(prevx, prevy, radius * 2);
 
     fill(255);
@@ -42,6 +43,7 @@ function draw() {
   line(x - 200, y, 0, wave[0]);
   beginShape();
   noFill();
+  strokeWeight(4);
   for (let i = 0; i < wave.length; i++) {
     vertex(i, wave[i]);
   }
