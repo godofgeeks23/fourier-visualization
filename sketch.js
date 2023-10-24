@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   background(0);
-  translate(width/2, height/2);
+  translate(width/2 - 300, height/2);
 
   let x = 0;
   let y = 0;
@@ -30,10 +30,10 @@ function draw() {
     noFill();
     ellipse(prevx, prevy, radius * 2);
 
-    //fill(255);
+    fill(255);
     stroke(255);
     line(prevx, prevy, x, y);
-    //ellipse(x, y, 8);
+    ellipse(x, y, 5);
   }
   wave.unshift(y);
 
@@ -47,10 +47,10 @@ function draw() {
   }
   endShape();
 
-  time += 0.005;
+  time += 0.025;
 
 
-  if (wave.length > 250) {
+  if (wave.length > 600) {
     wave.pop();
   }
 }
