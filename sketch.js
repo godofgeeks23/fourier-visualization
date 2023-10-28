@@ -1,4 +1,4 @@
-
+// start of sketch 
 let time = 0;
 let wave = [];
 let path = [];
