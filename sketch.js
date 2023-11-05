@@ -1,5 +1,7 @@
 // sketch file for p5js
+
 // start of sketch 
+
 let time = 0;
 let wave = [];
 let path = [];
@@ -57,4 +59,5 @@ function draw() {
     wave.pop();
   }
 }
+
 // end of sketch
