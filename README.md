@@ -12,9 +12,9 @@ f(t)=a0+∑n=1∞(ancos⁡(2πntT)+bnsin⁡(2πntT))f(t)=a0​+∑n=1∞​(an�
 
 Where:
 
-    a0a0​ is the average value of the function over one period.
-    anan​ and bnbn​ are the coefficients that determine the amplitudes of the cosine and sine terms in the series.
-    nn represents the frequency of the sine and cosine functions.
+a0a0​ is the average value of the function over one period.
+anan​ and bnbn​ are the coefficients that determine the amplitudes of the cosine and sine terms in the series.
+nn represents the frequency of the sine and cosine functions.
 
 The process of finding the coefficients a0,an,a0​,an​, and bnbn​ involves integrating the product of the function f(t)f(t) with sine and cosine functions over one period. The coefficients a0,an,a0​,an​, and bnbn​ reveal the contributions of different frequencies to the original function.
 
