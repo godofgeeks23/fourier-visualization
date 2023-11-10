@@ -8,7 +8,7 @@ Joseph Fourier, a French mathematician, introduced this concept in the early 19t
 
 The basic idea behind the Fourier series is that a periodic function f(t)f(t) with a period TT can be represented as:
 
-f(t)=a0+∑n=1∞(ancos⁡(2πntT)+bnsin⁡(2πntT))f(t)=a0​+∑n=1∞​(an​cos(T2πnt​)+bn​sin(T2πnt​))
+    f(t)=a0+∑n=1∞(ancos⁡(2πntT)+bnsin⁡(2πntT))f(t)=a0​+∑n=1∞​(an​cos(T2πnt​)+bn​sin(T2πnt​))
 
 Where:
 
