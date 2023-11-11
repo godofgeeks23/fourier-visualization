@@ -38,4 +38,3 @@ By using the Fourier series, various complex periodic functions can be expressed
 - [Fourier Series](https://en.wikipedia.org/wiki/Fourier_series)
 - [The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
 - [The Fourier Transform, explained in one sentence](https://www.youtube.com/watch?v=spUNpyF58BY)
-
