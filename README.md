@@ -19,3 +19,23 @@ nn represents the frequency of the sine and cosine functions.
 The process of finding the coefficients a0,an,a0​,an​, and bnbn​ involves integrating the product of the function f(t)f(t) with sine and cosine functions over one period. The coefficients a0,an,a0​,an​, and bnbn​ reveal the contributions of different frequencies to the original function.
 
 By using the Fourier series, various complex periodic functions can be expressed in terms of simpler trigonometric functions, making it easier to analyze and manipulate these functions in many applications, such as in signal processing, electrical engineering, vibrations, heat transfer, and more.
+
+## How to use
+
+1. Clone the repository
+2. Open the `index.html` file in your browser
+
+## How to contribute
+
+1. Fork the repository
+2. Clone the repository
+3. Make changes
+4. Push your changes
+5. Create a pull request
+
+## References
+
+- [Fourier Series](https://en.wikipedia.org/wiki/Fourier_series)
+- [The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+- [The Fourier Transform, explained in one sentence](https://www.youtube.com/watch?v=spUNpyF58BY)
+
