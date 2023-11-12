@@ -1,5 +1,7 @@
 # Fourier Visualization
 
+## About
+
 A javascript app to visualize fourier series transformations graphically using p5.js
 
 The Fourier series is a mathematical method used to represent a periodic function as a sum of simple sine and cosine functions. This representation allows the function to be broken down into its constituent frequencies.
