@@ -25,14 +25,19 @@ By using the Fourier series, various complex periodic functions can be expressed
 ## How to use
 
 1. Clone the repository
+
 2. Open the `index.html` file in your browser
 
 ## How to contribute
 
 1. Fork the repository
+
 2. Clone the repository
+
 3. Make changes
+
 4. Push your changes
+
 5. Create a pull request
 
 ## References
