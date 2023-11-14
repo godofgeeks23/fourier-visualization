@@ -24,7 +24,7 @@ By using the Fourier series, various complex periodic functions can be expressed
 
 ## How to use
 
-1. Clone the repository
+1. Clone the repository (use `git clone` or download the zip file)
 
 2. Open the `index.html` file in your browser
 
